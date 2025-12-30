@@ -78,3 +78,35 @@
 //
 //	cout << p1_m << "   " << p2_m << endl;
 //}
+/////////////////////////////////////////////////////////////////////
+#include <iostream>
+using namespace std;
+
+class Player {
+private:
+	int hp;
+public:
+	Player();
+	Player(int v);
+	int& setHP();
+	int getHP();
+};
+Player::Player() : Player(100){}
+Player::Player(int v) {
+	hp = v;
+}
+int& Player::setHP() {
+	return hp;
+}
+int Player::getHP() {
+	return hp;
+}
+
+int main() {
+	Player p1;
+	Player p2(200);
+	cout << p1.getHP() << "  " << p2.getHP() << endl;
+	p1.setHP() = 2000;
+	p2.setHP() = 20000;
+	cout << p1.getHP() << "  " << p2.getHP() << endl;
+}
