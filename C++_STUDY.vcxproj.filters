@@ -13,34 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Basic">
+    <Filter Include="2025">
       <UniqueIdentifier>{a8553c74-fdf3-48cb-af97-11de3c923632}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1210.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1210_2257.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1211_1522.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1222_1628.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1228_2051.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1229_1810.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
     </ClCompile>
     <ClCompile Include="1230_1403.cpp">
-      <Filter>Basic</Filter>
+      <Filter>2025</Filter>
+    </ClCompile>
+    <ClCompile Include="1231_2046.cpp">
+      <Filter>2025</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
