@@ -16,6 +16,9 @@
     <Filter Include="2025">
       <UniqueIdentifier>{a8553c74-fdf3-48cb-af97-11de3c923632}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2026">
+      <UniqueIdentifier>{a8572e8f-1d80-4cfa-83e8-5aa777297c65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
