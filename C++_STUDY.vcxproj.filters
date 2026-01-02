@@ -51,5 +51,8 @@
     <ClCompile Include="26_0101_1405.cpp">
       <Filter>2026</Filter>
     </ClCompile>
+    <ClCompile Include="26_0102_1700.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
