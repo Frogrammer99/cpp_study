@@ -43,7 +43,7 @@ Date::Date(int y, int m, int d) {
 	day = d;
 }
 Date::Date(string s) {
-	string Sy = "", Sm= "", Sd = "";
+	string Sy, Sm, Sd;
 	int count = 0;
 	int lock = 0;
 
