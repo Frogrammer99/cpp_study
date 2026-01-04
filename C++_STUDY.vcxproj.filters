@@ -57,5 +57,25 @@
     <ClCompile Include="26_0103_1531.cpp">
       <Filter>2026</Filter>
     </ClCompile>
+    <ClCompile Include="26_0104_Circle.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0104_main.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0104_Exp.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0104_exp_main.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="26_0104_Circle.h">
+      <Filter>2026</Filter>
+    </ClInclude>
+    <ClInclude Include="26_0104_Exp.h">
+      <Filter>2026</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
