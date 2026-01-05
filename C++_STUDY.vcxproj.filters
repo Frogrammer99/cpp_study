@@ -69,6 +69,9 @@
     <ClCompile Include="26_0104_exp_main.cpp">
       <Filter>2026</Filter>
     </ClCompile>
+    <ClCompile Include="26_0105_2215.cpp">
+      <Filter>2026</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="26_0104_Circle.h">
