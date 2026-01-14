@@ -13,6 +13,7 @@ int main() {
 	cout << typeid(&value).name() << endl;
 	cout << sizeof(ptr) << endl;
 	cout << typeid(array).name() << endl;
+	cout << typeid(&array).name() << endl;
 	cout << array << endl;
 	cout << &array << endl;
 	cout << *array << endl;
