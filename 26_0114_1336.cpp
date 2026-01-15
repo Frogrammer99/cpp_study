@@ -162,6 +162,8 @@ double Circle::getArea() {
 int main() {
 	Circle Circles[2][3];
 	Circle (* ptr)[3] = Circles;
+	int  arr[2][3] = { 0, };
+	int (* p)[3] = arr;
 
 	Circles[0][0].setRadius(1);
 	Circles[0][1].setRadius(2);
@@ -176,4 +178,8 @@ int main() {
 		}
 	}
 
+	cout << endl << endl;
+
+	cout << (*(ptr + 1) + 2) -> getArea() << endl;
+	cout << *arr << endl;
 }
