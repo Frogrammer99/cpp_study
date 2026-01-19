@@ -223,7 +223,10 @@
     <ClCompile Include="26_0116_1450.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="26_0118_1335.cpp" />
+    <ClCompile Include="26_0118_1335.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="26_0119_1324.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="26_0104_Circle.h">
