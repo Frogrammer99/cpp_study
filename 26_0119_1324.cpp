@@ -192,31 +192,32 @@
 //	cout << sum << endl;
 //}
 ////////////////////////////////////////////////////////
-#include <iostream>
-#include <string>
-using namespace std;
-
-int main() {
-	string lines, find, replace;
-	int pos = 0, start = 0;
-	cout << "문자열 입력, &를 입력 시 마무리: ";
-	getline(cin, lines, '&');
-	cin.ignore();
-	cout << "find: ";
-	getline(cin, find, '\n');
-	cout << "replace: ";
-	getline(cin, replace, '\n');
-
-	while (1) {
-		pos = lines.find(find, start);
-
-		if (pos == -1)
-			break;
-
-		lines.replace(pos, find.length(), replace);
-		start = pos + replace.length();
-	}
-
-	cout << endl << endl << lines << endl;
-
-}
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//int main() {
+//	string lines, find, replace;
+//	int pos = 0, start = 0;
+//	cout << "문자열 입력, &를 입력 시 마무리: ";
+//	getline(cin, lines, '&');
+//	cin.ignore();
+//	cout << "find: ";
+//	getline(cin, find, '\n');
+//	cout << "replace: ";
+//	getline(cin, replace, '\n');
+//
+//	while (1) {
+//		pos = lines.find(find, start);
+//
+//		if (pos == -1)
+//			break;
+//
+//		lines.replace(pos, find.length(), replace);
+//		start = pos + replace.length();
+//	}
+//
+//	cout << endl << endl << lines << endl;
+//
+//}
+///////////////////////
