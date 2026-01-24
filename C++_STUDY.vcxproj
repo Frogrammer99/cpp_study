@@ -235,7 +235,13 @@
     <ClCompile Include="26_0121_1408.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="26_0122_1850.cpp" />
+    <ClCompile Include="26_0122_1850.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="26_0123_1820.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="26_0124_1719.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="26_0104_Circle.h">
