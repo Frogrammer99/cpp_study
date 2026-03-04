@@ -22,6 +22,9 @@
     <Filter Include="2026_02">
       <UniqueIdentifier>{251fe536-364a-4440-9c3d-26a88a4f9bd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2026_03">
+      <UniqueIdentifier>{4df9421b-7dbd-4bf5-bf81-e9e89efc0dfb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
@@ -203,6 +206,12 @@
     </ClCompile>
     <ClCompile Include="26_0224_0905.cpp">
       <Filter>2026_02</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0303_0910.cpp">
+      <Filter>2026_03</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0304_0911.cpp">
+      <Filter>2026_03</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
