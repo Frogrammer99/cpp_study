@@ -25,6 +25,9 @@
     <Filter Include="2026_03">
       <UniqueIdentifier>{4df9421b-7dbd-4bf5-bf81-e9e89efc0dfb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2026_0305_overriding_prtc">
+      <UniqueIdentifier>{2eb1aff8-8bfc-4247-a973-5640b33d4bc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
@@ -213,6 +216,12 @@
     <ClCompile Include="26_0304_0911.cpp">
       <Filter>2026_03</Filter>
     </ClCompile>
+    <ClCompile Include="26_0305_1207.cpp">
+      <Filter>2026_03</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>2026_0305_overriding_prtc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="26_0104_Circle.h">
@@ -229,6 +238,12 @@
     </ClInclude>
     <ClInclude Include="26_0110_Ram.h">
       <Filter>2026_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>2026_0305_overriding_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>2026_0305_overriding_prtc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
