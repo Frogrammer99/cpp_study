@@ -6,7 +6,7 @@ protected:
 	virtual void draw();
 public:
 	Shape() { next = nullptr; }
-	virtual ~Shape();
+	virtual ~Shape() {};
 	void paint();
 	Shape* add(Shape* p);
 	Shape* getNext() { return next; }
