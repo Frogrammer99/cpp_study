@@ -336,27 +336,28 @@
 //}
 // 
 ////////////////////////////////////////
-#include <iostream>
-
-class shape {
-public:
-	void paint() {
-		draw();
-	}
-	virtual void draw() {
-		std::cout << "shape::draw() called" << std::endl;
-	}
-};
-
-class Circle : public shape {
-public:
-	virtual void draw() {
-		std::cout << "Circle::draw() called" << std::endl;
-	}
-};
-
-int main() {
-	shape* sPtr = new Circle();
-	sPtr->draw();
-	delete sPtr;
-}
+//#include <iostream>
+//
+//class shape {
+//public:
+//	void paint() {
+//		draw();
+//	}
+//	virtual void draw() {
+//		std::cout << "shape::draw() called" << std::endl;
+//	}
+//};
+//
+//class Circle : public shape {
+//public:
+//	virtual void draw() {
+//		std::cout << "Circle::draw() called" << std::endl;
+//	}
+//};
+//
+//int main() {
+//	shape* sPtr = new Circle();
+//	sPtr->draw();
+//	delete sPtr;
+//}
+///////////////////////////////////////////////////////
