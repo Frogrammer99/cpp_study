@@ -28,6 +28,9 @@
     <Filter Include="2026_0305_overriding_prtc">
       <UniqueIdentifier>{2eb1aff8-8bfc-4247-a973-5640b33d4bc0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2026_0320_template_prtc">
+      <UniqueIdentifier>{5c18b722-3dd9-49f4-ab78-cd3309d81025}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
@@ -231,7 +234,7 @@
     <ClCompile Include="Line.cpp">
       <Filter>2026_0305_overriding_prtc</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main_.cpp">
       <Filter>2026_0305_overriding_prtc</Filter>
     </ClCompile>
     <ClCompile Include="26_0306_1231.cpp">
@@ -270,6 +273,24 @@
     <ClCompile Include="26_0319_0922.cpp">
       <Filter>2026_03</Filter>
     </ClCompile>
+    <ClCompile Include="Shape_t.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle_t.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect_t.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Line_t.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="26_0104_Circle.h">
@@ -298,6 +319,21 @@
     </ClInclude>
     <ClInclude Include="Line.h">
       <Filter>2026_0305_overriding_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape_t.h">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle_t.h">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect_t.h">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Line_t.h">
+      <Filter>2026_0320_template_prtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>2026_0320_template_prtc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
