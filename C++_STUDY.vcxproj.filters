@@ -31,6 +31,9 @@
     <Filter Include="2026_0320_template_prtc">
       <UniqueIdentifier>{5c18b722-3dd9-49f4-ab78-cd3309d81025}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2026_04">
+      <UniqueIdentifier>{f024f18b-a79c-41f6-a059-7f7ddfdd44fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205.cpp">
@@ -302,6 +305,9 @@
     </ClCompile>
     <ClCompile Include="26_0331_1153.cpp">
       <Filter>2026_03</Filter>
+    </ClCompile>
+    <ClCompile Include="26_0401_1108.cpp">
+      <Filter>2026_04</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
