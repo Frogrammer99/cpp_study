@@ -455,41 +455,48 @@
 //	delete[]arr;
 //	return needChange;
 //}
+//#include <iostream>
+//#include <string>
+//
+//int getMinChangesToAnagram(std::string s1, std::string s2) {
+//	if (s1 == s2)
+//		return 0;
+//	if (s1.length() != s2.length())
+//		return -1;
+//
+//	int needChange = 0;
+//	int alpha[26] = { 0, };
+//	int lenApha = sizeof(alpha) / sizeof(int);
+//
+//	for (int i = 0; i <s1.length(); ++i) {
+//		int s1Alpha = tolower(s1[i]) - 'a';
+//		int s2Alpha = tolower(s2[i]) - 'a';
+//
+//		++alpha[s1Alpha];
+//		--alpha[s2Alpha];
+//	}
+//
+//	for (int i = 0; i < lenApha; ++i) {
+//		if (alpha[i] > 0)
+//			needChange += alpha[i];
+//	}
+//
+//	return needChange;
+//
+//}
+//
+//int main() {
+//	std::cout << "listen -> silent: " << getMinChangesToAnagram("listen", "silent") << "\n"; // 0
+//	std::cout << "abc -> abd: " << getMinChangesToAnagram("abc", "abd") << "\n"; // 1
+//	std::cout << "aabbcc -> aabdde: " << getMinChangesToAnagram("aabbcc", "aabdde") << "\n"; // 3
+//	std::cout << "abc -> xyz: " << getMinChangesToAnagram("abc", "xyz") << "\n"; // 3
+//	std::cout << "ab -> abc: " << getMinChangesToAnagram("ab", "abc") << "\n"; // -1
+//	std::cout << "test -> test: " << getMinChangesToAnagram("test", "test") << "\n"; // 0
+//}
+////////////////////////////////////////////////////////
 #include <iostream>
-#include <string>
 
-int getMinChangesToAnagram(std::string s1, std::string s2) {
-	if (s1 == s2)
-		return 0;
-	if (s1.length() != s2.length())
-		return -1;
-
-	int needChange = 0;
-	int alpha[26] = { 0, };
-	int lenApha = sizeof(alpha) / sizeof(int);
-
-	for (int i = 0; i <s1.length(); ++i) {
-		int s1Alpha = tolower(s1[i]) - 'a';
-		int s2Alpha = tolower(s2[i]) - 'a';
-
-		++alpha[s1Alpha];
-		--alpha[s2Alpha];
-	}
-
-	for (int i = 0; i < lenApha; ++i) {
-		if (alpha[i] > 0)
-			needChange += alpha[i];
-	}
-
-	return needChange;
-
-}
-
-int main() {
-	std::cout << "listen -> silent: " << getMinChangesToAnagram("listen", "silent") << "\n"; // 0
-	std::cout << "abc -> abd: " << getMinChangesToAnagram("abc", "abd") << "\n"; // 1
-	std::cout << "aabbcc -> aabdde: " << getMinChangesToAnagram("aabbcc", "aabdde") << "\n"; // 3
-	std::cout << "abc -> xyz: " << getMinChangesToAnagram("abc", "xyz") << "\n"; // 3
-	std::cout << "ab -> abc: " << getMinChangesToAnagram("ab", "abc") << "\n"; // -1
-	std::cout << "test -> test: " << getMinChangesToAnagram("test", "test") << "\n"; // 0
+void hanoiTower(int num, char from, char by, char to) {
+	if(num == 1)
+		std::cout << "¿ø¹Ý " << num << "À» "
 }
